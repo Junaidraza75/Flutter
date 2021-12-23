@@ -9,11 +9,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int a = 2;
+
     return MaterialApp(
       home: Material(
         child: Center(
           child: Container(
-            child: Text('CLass Two Practice'),
+            child: Text('CLass $a Practice'),
           ),
         ),
       ),
